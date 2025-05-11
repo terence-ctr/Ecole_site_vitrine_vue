@@ -5,11 +5,11 @@
   <section class="cta">
     <div class="container">
       <div class="cta-content slide-up">
-        <h2>Ready to Join Our School Community?</h2>
-        <p>Take the first step towards providing your child with an exceptional educational experience. Our admissions team is ready to guide you through the process.</p>
+        <h2>Prêt à Rejoindre Notre Communauté Scolaire ?</h2>
+        <p>Faites le premier pas vers l'offre d'une expérience éducative exceptionnelle à votre enfant. Notre équipe d'admissions est prête à vous guider dans le processus.</p>
         <div class="cta-buttons">
-          <router-link to="/admission" class="btn btn-primary">Apply Now</router-link>
-          <router-link to="/contact" class="btn btn-outline">Contact Us</router-link>
+          <router-link to="/admission" class="btn btn-primary">Postuler Maintenant</router-link>
+          <router-link to="/contact" class="btn btn-outline">Contactez-Nous</router-link>
         </div>
       </div>
     </div>

@@ -4,22 +4,22 @@ import { ref, onMounted } from 'vue'
 const testimonials = [
   {
     id: 1,
-    text: "Orange Academy has provided an exceptional educational experience for my child. The teachers are dedicated and the curriculum is challenging yet engaging.",
-    author: "Jane Smith",
+    text: "Maïsha Academy a fourni une expérience éducative exceptionnelle pour mon enfant. Les enseignants sont dévoués et le programme est stimulant tout en étant engageant.",
+    author: "Marie Dubois",
     role: "Parent",
     image: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     id: 2,
-    text: "As a former student, I can attest to the quality of education at Orange Academy. The skills and values I learned have been instrumental in my success.",
-    author: "Michael Johnson",
-    role: "Alumni",
+    text: "En tant qu'ancien élève, je peux témoigner de la qualité de l'éducation à Maïsha Academy. Les compétences et les valeurs que j'ai apprises ont été essentielles à mon succès.",
+    author: "Pierre Martin",
+    role: "Ancien Élève",
     image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
     id: 3,
-    text: "The supportive environment and excellent teaching methods at Orange Academy have helped my children develop confidence and a love for learning.",
-    author: "Sarah Williams",
+    text: "L'environnement propice et les méthodes d'enseignement excellentes à Maïsha Academy ont aidé mes enfants à développer la confiance et l'amour de l'apprentissage.",
+    author: "Sophie Lemoine",
     role: "Parent",
     image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
@@ -47,7 +47,7 @@ onMounted(() => {
 <template>
   <section class="testimonials section">
     <div class="container">
-      <h2 class="section-title text-center slide-up">What Parents & Students Say</h2>
+      <h2 class="section-title text-center slide-up">Ce Que Disent Les Parents & Étudiants</h2>
       
       <div class="testimonial-slider">
         <button class="slider-nav prev" @click="prevTestimonial" aria-label="Previous testimonial">
@@ -94,6 +94,8 @@ onMounted(() => {
 .testimonials {
   background-color: var(--color-secondary);
   color: white;
+  justify-content: center; 
+  align-items: center
 }
 
 .section-title {
@@ -104,7 +106,7 @@ onMounted(() => {
 .testimonial-slider {
   display: flex;
   align-items: center;
-  max-width: 900px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -198,8 +200,7 @@ onMounted(() => {
 .dot {
   width: 12px;
   height: 12px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(56, 58, 56, 0.3);
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;

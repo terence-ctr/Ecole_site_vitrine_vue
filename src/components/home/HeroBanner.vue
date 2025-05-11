@@ -4,11 +4,11 @@
 <template>
   <section class="hero">
     <div class="hero-content">
-      <h1 class="hero-title slide-up">Inspire. Educate. Transform.</h1>
-      <p class="hero-subtitle slide-up">A premier learning institution for primary and secondary education</p>
+      <h1 class="hero-title slide-up">Inspirez. Éduquez. Transformez.</h1>
+      <p class="hero-subtitle slide-up">Une institution d'apprentissage de premier plan pour l'éducation primaire et secondaire</p>
       <div class="hero-buttons slide-up">
-        <router-link to="/admission" class="btn btn-primary">Apply Now</router-link>
-        <router-link to="/about" class="btn btn-outline">Learn More</router-link>
+        <router-link to="/admission" class="btn btn-primary">Postuler Maintenant</router-link>
+        <router-link to="/about" class="btn btn-outline">En Savoir Plus</router-link>
       </div>
     </div>
     <div class="hero-overlay"></div>

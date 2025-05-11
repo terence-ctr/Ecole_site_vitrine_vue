@@ -2,17 +2,17 @@
 const levels = [
   {
     id: 'primary',
-    title: 'Primary School',
-    grades: 'Grades 1-6',
-    description: 'Our primary school provides a solid foundation for learning through a child-centered approach that fosters curiosity and a love for learning.',
+    title: 'École Primaire',
+    grades: 'Classes 1-6',
+    description: "Notre école primaire offre une base solide pour l'apprentissage grâce à une approche centrée sur l'enfant qui favorise la curiosité et l'amour de l'apprentissage.",
     image: 'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg',
     link: '/primary'
   },
   {
     id: 'secondary',
-    title: 'Secondary School',
-    grades: 'Grades 7-12',
-    description: 'The secondary program prepares students for higher education and future careers through rigorous academic standards and diverse extracurricular opportunities.',
+    title: 'École Secondaire',
+    grades: 'Classes 7-12',
+    description: "Le programme secondaire prépare les élèves à l'enseignement supérieur et aux carrières futures grâce à des normes académiques rigoureuses et des opportunités extrascolaires variées.",
     image: 'https://images.pexels.com/photos/8617865/pexels-photo-8617865.jpeg',
     link: '/secondary'
   }
@@ -22,8 +22,8 @@ const levels = [
 <template>
   <section class="school-levels section">
     <div class="container">
-      <h2 class="section-title text-center slide-up">Our Education Programs</h2>
-      <p class="section-subtitle text-center slide-up">Comprehensive education pathways from primary through secondary levels</p>
+      <h2 class="section-title text-center slide-up">Nos Programmes Éducatifs</h2>
+      <p class="section-subtitle text-center slide-up">Des parcours éducatifs complets de l'école primaire au secondaire</p>
       
       <div class="levels-grid">
         <div v-for="level in levels" :key="level.id" class="level-card slide-up">
@@ -34,7 +34,7 @@ const levels = [
             <h3>{{ level.title }}</h3>
             <div class="level-grades">{{ level.grades }}</div>
             <p>{{ level.description }}</p>
-            <router-link :to="level.link" class="btn btn-primary">Learn More</router-link>
+            <router-link :to="level.link" class="btn btn-primary">En Savoir Plus</router-link>
           </div>
         </div>
       </div>

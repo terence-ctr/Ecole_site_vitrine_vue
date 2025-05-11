@@ -18,13 +18,13 @@ const closeMobileMenu = () => {
 }
 
 const navLinks = [
-  { path: '/', label: 'Home' },
-  { path: '/about', label: 'About Us' },
-  { path: '/primary', label: 'Primary School' },
-  { path: '/secondary', label: 'Secondary School' },
-  { path: '/admission', label: 'Admission' },
-  { path: '/gallery', label: 'Gallery' },
-  { path: '/news', label: 'News' },
+  { path: '/', label: 'Accueil' },
+  { path: '/about', label: 'À propos' },
+  { path: '/primary', label: 'École primaire' },
+  { path: '/secondary', label: 'École secondaire' },
+  { path: '/admission', label: 'Admissions' },
+  { path: '/gallery', label: 'Galerie' },
+  { path: '/news', label: 'Actualités' },
   { path: '/contact', label: 'Contact' }
 ]
 </script>
@@ -34,7 +34,7 @@ const navLinks = [
     <div class="container header-container">
       <div class="logo">
         <router-link to="/">
-          <span class="logo-text">Orange Academy</span>
+          <span class="logo-text">Maïsha Academy</span>
         </router-link>
       </div>
       
@@ -48,7 +48,7 @@ const navLinks = [
         </ul>
       </nav>
       
-      <button class="mobile-menu-toggle" @click="toggleMobileMenu" aria-label="Toggle menu">
+      <button class="mobile-menu-toggle" @click="toggleMobileMenu" aria-label="Basculer le menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -108,7 +108,7 @@ const navLinks = [
 }
 
 .header.transparent .logo-text {
-  color: white;
+  color:var(--color-neutral-800) ;
 }
 
 .nav-links {

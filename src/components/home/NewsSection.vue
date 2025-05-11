@@ -2,23 +2,23 @@
 const newsItems = [
   {
     id: 1,
-    title: 'Annual Science Fair Winners Announced',
-    date: 'June 15, 2025',
-    excerpt: 'Congratulations to all participants in this year\'s Science Fair. The creativity and innovation displayed were truly impressive.',
+    title: 'Annonce des Gagnants de la Foire Scientifique Annuelle',
+    date: '15 juin 2025',
+    excerpt: 'Félicitations à tous les participants de la Foire Scientifique de cette année. La créativité et l\'innovation démontrées ont été vraiment impressionnantes.',
     image: 'https://images.pexels.com/photos/2280547/pexels-photo-2280547.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
     id: 2,
-    title: 'New Sports Facilities Opening Next Month',
-    date: 'May 28, 2025',
-    excerpt: 'We are excited to announce the grand opening of our new state-of-the-art sports complex, featuring an Olympic-sized swimming pool and modern gymnasium.',
+    title: 'Ouverture des Nouvelles Installations Sportives le Mois Prochain',
+    date: '28 mai 2025',
+    excerpt: 'Nous sommes ravis d\'annoncer l\'ouverture grandiose de notre nouveau complexe sportif ultramoderne, doté d\'une piscine olympique et d\'une salle de sport moderne.',
     image: 'https://images.pexels.com/photos/4427545/pexels-photo-4427545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   },
   {
     id: 3,
-    title: 'Students Excel in National Mathematics Competition',
+    title: 'Les Étudiants Excellents dans la Compétition Nationale de Mathématiques',
     date: 'May 10, 2025',
-    excerpt: 'Our students have achieved outstanding results in the National Mathematics Competition, with five receiving gold medals and eight receiving silver.',
+    excerpt: 'Nos étudiants ont obtenu des résultats exceptionnels dans la Compétition Nationale de Mathématiques, avec cinq médaillés d\'or et huit médaillés d\'argent.',
     image: 'https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   }
 ]
@@ -28,8 +28,8 @@ const newsItems = [
   <section class="news section">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title slide-up">Latest News & Events</h2>
-        <router-link to="/news" class="view-all-link slide-up">View All News</router-link>
+        <h2 class="section-title slide-up">Dernières Actualités & Événements</h2>
+        <router-link to="/news" class="view-all-link slide-up">Voir Toutes les Actualités</router-link>
       </div>
       
       <div class="news-grid grid grid-3">
@@ -41,7 +41,7 @@ const newsItems = [
           <div class="card-body">
             <h3 class="news-title">{{ item.title }}</h3>
             <p class="news-excerpt">{{ item.excerpt }}</p>
-            <router-link to="/news" class="read-more">Read More</router-link>
+            <router-link to="/news" class="read-more">Lire Plus</router-link>
           </div>
         </div>
       </div>

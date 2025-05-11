@@ -2,26 +2,26 @@
 const features = [
   {
     id: 1,
-    title: 'Qualified Teachers',
-    description: 'Our highly qualified and experienced teachers are dedicated to providing the best education.',
+    title: 'Professeurs Qualifiés',
+    description: 'Nos professeurs hautement qualifiés et expérimentés sont dédiés à offrir la meilleure éducation.',
     icon: '👨‍🏫'
   },
   {
     id: 2,
-    title: 'Modern Facilities',
-    description: 'State-of-the-art classrooms, laboratories, and sports facilities for comprehensive learning.',
+    title: 'Installations Modernes',
+    description: 'Salles de classe modernes, laboratoires et installations sportives pour un apprentissage complet.',
     icon: '🏫'
   },
   {
     id: 3,
-    title: 'Holistic Education',
-    description: 'We focus on academic excellence along with character development and critical thinking skills.',
+    title: 'Éducation Holistique',
+    description: "Nous nous concentrons sur l'excellence académique ainsi que le développement du caractère et des compétences de réflexion critique.",
     icon: '🧠'
   },
   {
     id: 4,
-    title: 'Extracurricular Activities',
-    description: 'A wide range of sports, arts, and cultural activities to develop well-rounded individuals.',
+    title: 'Activités Extra-scolaires',
+    description: "Une large gamme d'activités sportives, artistiques et culturelles pour développer des individus épanouis.",
     icon: '🏆'
   }
 ]
@@ -30,8 +30,8 @@ const features = [
 <template>
   <section class="features section">
     <div class="container">
-      <h2 class="section-title text-center slide-up">Why Choose Orange Academy</h2>
-      <p class="section-subtitle text-center slide-up">We provide a nurturing environment where every student can excel</p>
+      <h2 class="section-title text-center slide-up">Pourquoi Choisir Maïsha Academy</h2>
+      <p class="section-subtitle text-center slide-up">Nous offrons un environnement propice où chaque élève peut exceller</p>
       
       <div class="features-grid grid grid-4">
         <div v-for="feature in features" :key="feature.id" class="feature-card card slide-up">

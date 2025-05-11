@@ -10,33 +10,33 @@ const currentYear = computed(() => new Date().getFullYear())
       <div class="footer-top grid grid-4">
         <div class="footer-col">
           <h3>Orange Academy</h3>
-          <p>Excellence in education since 1995. Nurturing young minds to become future leaders through quality education and holistic development.</p>
+          <p>Excellence éducative depuis 1995. Cultivons les jeunes esprits pour qu'ils deviennent les leaders de demain grâce à une éducation de qualité et un développement holistique.</p>
         </div>
         
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4>Liens Rapides</h4>
           <ul class="footer-links">
-            <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/about">About Us</router-link></li>
-            <li><router-link to="/primary">Primary School</router-link></li>
-            <li><router-link to="/secondary">Secondary School</router-link></li>
-            <li><router-link to="/admission">Admission</router-link></li>
+            <li><router-link to="/">Accueil</router-link></li>
+            <li><router-link to="/about">À propos</router-link></li>
+            <li><router-link to="/primary">École primaire</router-link></li>
+            <li><router-link to="/secondary">École secondaire</router-link></li>
+            <li><router-link to="/admission">Admissions</router-link></li>
           </ul>
         </div>
         
         <div class="footer-col">
-          <h4>Programs</h4>
+          <h4>Programmes</h4>
           <ul class="footer-links">
-            <li><router-link to="/primary">Primary Curriculum</router-link></li>
-            <li><router-link to="/secondary">Secondary Curriculum</router-link></li>
-            <li><router-link to="/gallery">Sports & Activities</router-link></li>
-            <li><router-link to="/about">School Calendar</router-link></li>
-            <li><router-link to="/news">School News</router-link></li>
+            <li><router-link to="/primary">Programme Primaire</router-link></li>
+            <li><router-link to="/secondary">Programme Secondaire</router-link></li>
+            <li><router-link to="/gallery">Sports & Activités</router-link></li>
+            <li><router-link to="/about">Calendrier Scolaire</router-link></li>
+            <li><router-link to="/news">Actualités Scolaires</router-link></li>
           </ul>
         </div>
         
         <div class="footer-col">
-          <h4>Contact Us</h4>
+          <h4>Contactez-Nous</h4>
           <address class="contact-info">
             <p>123 Education Street<br>Academic District, 12345</p>
             <p>Email: <a href="mailto:info@orangeacademy.edu">info@orangeacademy.edu</a></p>

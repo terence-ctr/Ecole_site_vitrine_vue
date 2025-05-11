@@ -324,17 +324,44 @@ const team = [
   margin-bottom: var(--space-3);
 }
 
+@media (max-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .about-content {
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
-  
+
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
   .about-image {
-    margin-bottom: var(--space-5);
+    margin-bottom: 30px;
   }
-  
+
   .stat-value {
     font-size: 2.5rem;
+  }
+
+  .section {
+    padding: 60px 0;
   }
 }
 </style>
